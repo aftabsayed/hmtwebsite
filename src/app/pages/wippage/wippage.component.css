@@ -1,0 +1,45 @@
+.wipcss {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: auto;
+        background-image: url("../../../assets/resources/images/openart-reparing4.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+.wipcss .box {
+    height: 80%;
+    width: 80%;
+    border-radius: 1rem;
+    background-color: rgba(22, 8, 8, 0.6);
+}
+
+.wipcss .title {
+    /* font-size: 5rem; */
+    font-size: calc(5vw + 0.3rem);
+    line-height: calc(5vw + 0.3rem);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgba(24, 4, 4, 0.7);
+}
+
+.wipcss .sub-title {
+    font-size: calc(4vw + 0.3rem);
+    line-height: calc(4vw + 0.3rem);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.wipcss .mini-text {
+    font-size: calc(1vw + 0.3em);
+    line-height:calc(5vw + 0.3rem);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* @media screen and (max-width: 768px) {
+
+} */
+

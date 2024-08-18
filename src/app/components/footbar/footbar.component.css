@@ -1,0 +1,30 @@
+.footbar {
+    /* background: #0E1E52; */
+    background-color: rgba(0, 0, 0, 0.849)!important;
+    padding: 0.2rem 0; /* padding 0.5 top-bottom and 0 left-right */
+
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.75rem;
+
+}
+
+/* The above code means the same */
+.footbar a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.footbar a:hover {
+    color: #f00a0c;
+    cursor: pointer;
+}
+
+.footbar span {
+    margin-left: 0.4rem;
+}
+
